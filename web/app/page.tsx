@@ -4,6 +4,7 @@ import SearchBar from "../components/SearchBar";
 import FeaturedTools from "../components/FeaturedTools";
 import Categories from "../components/Categories";
 import LatestBlog from "../components/LatestBlog";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <Categories />
 
       <LatestBlog />
+
+      <Footer />
     </main>
   );
 }
